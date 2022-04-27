@@ -121,10 +121,19 @@
 //   reverse: function(str){
 //     let arr = Array.from(str);
 //     let arr2 = arr.reverse();
+//     console.log(arr2);
 //   },
-//   ndexOf: function(ch, str){
+//   indexOf: function(ch, str){
 //     let arr = Array.from(str);
-
+//     arr.forEach((item)=>{
+//       if(ch ==item){
+//         console.log(ch);
+//       }
+//       else{
+//         console.log(-1);
+//       }
+//     })
 //   }
 // }
 // string.reverse('Python')
+// string.indexOf('n','Python')
